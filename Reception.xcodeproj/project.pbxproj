@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC3457E915514C1000D42593 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC3457E815514C1000D42593 /* UIKit.framework */; };
+		DC3457EB15514C1000D42593 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC3457EA15514C1000D42593 /* Foundation.framework */; };
+		DC3457ED15514C1000D42593 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC3457EC15514C1000D42593 /* CoreGraphics.framework */; };
+		DC3457F315514C1000D42593 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC3457F115514C1000D42593 /* InfoPlist.strings */; };
+		DC3457F515514C1000D42593 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3457F415514C1000D42593 /* main.m */; };
+		DC3457F915514C1000D42593 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3457F815514C1000D42593 /* AppDelegate.m */; };
+		DC3457FC15514C1000D42593 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3457FB15514C1000D42593 /* MasterViewController.m */; };
+		DC3457FF15514C1000D42593 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3457FE15514C1000D42593 /* DetailViewController.m */; };
+		DC34580215514C1000D42593 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC34580015514C1000D42593 /* MasterViewController.xib */; };
+		DC34580515514C1000D42593 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC34580315514C1000D42593 /* DetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC3457E415514C1000D42593 /* Reception.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reception.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3457E815514C1000D42593 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC3457EA15514C1000D42593 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC3457EC15514C1000D42593 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC3457F015514C1000D42593 /* Reception-Info.plist */ = {isa = PBXFileReference; path = "Reception-Info.plist"; sourceTree = "<group>"; };
+		DC3457F215514C1000D42593 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC3457F415514C1000D42593 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC3457F615514C1000D42593 /* Reception-Prefix.pch */ = {isa = PBXFileReference; path = "Reception-Prefix.pch"; sourceTree = "<group>"; };
+		DC3457F715514C1000D42593 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC3457F815514C1000D42593 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC3457FA15514C1000D42593 /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		DC3457FB15514C1000D42593 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		DC3457FD15514C1000D42593 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		DC3457FE15514C1000D42593 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		DC34580115514C1000D42593 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		DC34580415514C1000D42593 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC3457E115514C1000D42593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3457E915514C1000D42593 /* UIKit.framework in Frameworks */,
+				DC3457EB15514C1000D42593 /* Foundation.framework in Frameworks */,
+				DC3457ED15514C1000D42593 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC3457D915514C1000D42593 = {
+			isa = PBXGroup;
+			children = (
+				DC3457EE15514C1000D42593 /* Reception */,
+				DC3457E715514C1000D42593 /* Frameworks */,
+				DC3457E515514C1000D42593 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC3457E515514C1000D42593 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC3457E415514C1000D42593 /* Reception.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC3457E715514C1000D42593 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC3457E815514C1000D42593 /* UIKit.framework */,
+				DC3457EA15514C1000D42593 /* Foundation.framework */,
+				DC3457EC15514C1000D42593 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC3457EE15514C1000D42593 /* Reception */ = {
+			isa = PBXGroup;
+			children = (
+				DC3457F715514C1000D42593 /* AppDelegate.h */,
+				DC3457F815514C1000D42593 /* AppDelegate.m */,
+				DC3457FA15514C1000D42593 /* MasterViewController.h */,
+				DC3457FB15514C1000D42593 /* MasterViewController.m */,
+				DC3457FD15514C1000D42593 /* DetailViewController.h */,
+				DC3457FE15514C1000D42593 /* DetailViewController.m */,
+				DC34580015514C1000D42593 /* MasterViewController.xib */,
+				DC34580315514C1000D42593 /* DetailViewController.xib */,
+				DC3457EF15514C1000D42593 /* Supporting Files */,
+			);
+			path = Reception;
+			sourceTree = "<group>";
+		};
+		DC3457EF15514C1000D42593 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC3457F015514C1000D42593 /* Reception-Info.plist */,
+				DC3457F115514C1000D42593 /* InfoPlist.strings */,
+				DC3457F415514C1000D42593 /* main.m */,
+				DC3457F615514C1000D42593 /* Reception-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC3457E315514C1000D42593 /* Reception */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC34580815514C1000D42593 /* Build configuration list for PBXNativeTarget "Reception" */;
+			buildPhases = (
+				DC3457E015514C1000D42593 /* Sources */,
+				DC3457E115514C1000D42593 /* Frameworks */,
+				DC3457E215514C1000D42593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reception;
+			productName = Reception;
+			productReference = DC3457E415514C1000D42593 /* Reception.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC3457DB15514C1000D42593 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DC3457DE15514C1000D42593 /* Build configuration list for PBXProject "Reception" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC3457D915514C1000D42593;
+			productRefGroup = DC3457E515514C1000D42593 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC3457E315514C1000D42593 /* Reception */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC3457E215514C1000D42593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3457F315514C1000D42593 /* InfoPlist.strings in Resources */,
+				DC34580215514C1000D42593 /* MasterViewController.xib in Resources */,
+				DC34580515514C1000D42593 /* DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC3457E015514C1000D42593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3457F515514C1000D42593 /* main.m in Sources */,
+				DC3457F915514C1000D42593 /* AppDelegate.m in Sources */,
+				DC3457FC15514C1000D42593 /* MasterViewController.m in Sources */,
+				DC3457FF15514C1000D42593 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC3457F115514C1000D42593 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC3457F215514C1000D42593 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC34580015514C1000D42593 /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC34580115514C1000D42593 /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		DC34580315514C1000D42593 /* DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC34580415514C1000D42593 /* en */,
+			);
+			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC34580615514C1000D42593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC34580715514C1000D42593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC34580915514C1000D42593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reception/Reception-Prefix.pch";
+				INFOPLIST_FILE = "Reception/Reception-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC34580A15514C1000D42593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reception/Reception-Prefix.pch";
+				INFOPLIST_FILE = "Reception/Reception-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC3457DE15514C1000D42593 /* Build configuration list for PBXProject "Reception" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC34580615514C1000D42593 /* Debug */,
+				DC34580715514C1000D42593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC34580815514C1000D42593 /* Build configuration list for PBXNativeTarget "Reception" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC34580915514C1000D42593 /* Debug */,
+				DC34580A15514C1000D42593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC3457DB15514C1000D42593 /* Project object */;
+}
